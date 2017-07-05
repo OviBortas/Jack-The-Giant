@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF7E05441F0AF372004D1B3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7E05431F0AF372004D1B3B /* AppDelegate.swift */; };
+		EF7E05461F0AF372004D1B3B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EF7E05451F0AF372004D1B3B /* GameScene.sks */; };
+		EF7E05481F0AF372004D1B3B /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = EF7E05471F0AF372004D1B3B /* Actions.sks */; };
+		EF7E054A1F0AF372004D1B3B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7E05491F0AF372004D1B3B /* GameScene.swift */; };
+		EF7E054C1F0AF372004D1B3B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7E054B1F0AF372004D1B3B /* GameViewController.swift */; };
+		EF7E054F1F0AF372004D1B3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7E054D1F0AF372004D1B3B /* Main.storyboard */; };
+		EF7E05511F0AF372004D1B3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7E05501F0AF372004D1B3B /* Assets.xcassets */; };
+		EF7E05541F0AF372004D1B3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7E05521F0AF372004D1B3B /* LaunchScreen.storyboard */; };
+		EF7E05871F0AF48A004D1B3B /* Pause Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7E055D1F0AF48A004D1B3B /* Pause Menu.png */; };
+		EF7E05881F0AF48A004D1B3B /* Quit Button 2.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7E055E1F0AF48A004D1B3B /* Quit Button 2.png */; };
+		EF7E05891F0AF48A004D1B3B /* Resume Button.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7E055F1F0AF48A004D1B3B /* Resume Button.png */; };
+		EF7E058A1F0AF48A004D1B3B /* Show Score.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7E05601F0AF48A004D1B3B /* Show Score.png */; };
+		EF7E058B1F0AF48A004D1B3B /* Coin.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7E05621F0AF48A004D1B3B /* Coin.png */; };
+		EF7E058C1F0AF48A004D1B3B /* Life.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7E05631F0AF48A004D1B3B /* Life.png */; };
+		EF7E058D1F0AF48A004D1B3B /* Cloud 1.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7E05651F0AF48A004D1B3B /* Cloud 1.png */; };
+		EF7E058E1F0AF48A004D1B3B /* Cloud 2.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7E05661F0AF48A004D1B3B /* Cloud 2.png */; };
+		EF7E058F1F0AF48A004D1B3B /* Cloud 3.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7E05671F0AF48A004D1B3B /* Cloud 3.png */; };
+		EF7E05901F0AF48A004D1B3B /* Dark Cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7E05681F0AF48A004D1B3B /* Dark Cloud.png */; };
+		EF7E05911F0AF48A004D1B3B /* blow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF7E056A1F0AF48A004D1B3B /* blow.ttf */; };
+		EF7E05921F0AF48A004D1B3B /* Background music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF7E056C1F0AF48A004D1B3B /* Background music.mp3 */; };
+		EF7E05931F0AF48A004D1B3B /* Click Sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = EF7E056D1F0AF48A004D1B3B /* Click Sound.wav */; };
+		EF7E05941F0AF48A004D1B3B /* Coin Sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = EF7E056E1F0AF48A004D1B3B /* Coin Sound.wav */; };
+		EF7E05951F0AF48A004D1B3B /* Life Sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = EF7E056F1F0AF48A004D1B3B /* Life Sound.wav */; };
+		EF7E05961F0AF48A004D1B3B /* Game BG.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7E05711F0AF48A004D1B3B /* Game BG.png */; };
+		EF7E05971F0AF48A004D1B3B /* Highscore BG.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7E05721F0AF48A004D1B3B /* Highscore BG.png */; };
+		EF7E05981F0AF48A004D1B3B /* Menu BG.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7E05731F0AF48A004D1B3B /* Menu BG.png */; };
+		EF7E05991F0AF48A004D1B3B /* Options BG.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7E05741F0AF48A004D1B3B /* Options BG.png */; };
+		EF7E059A1F0AF48A004D1B3B /* Pause Button.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7E05771F0AF48A004D1B3B /* Pause Button.png */; };
+		EF7E059B1F0AF48A004D1B3B /* Ready.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7E05781F0AF48A004D1B3B /* Ready.png */; };
+		EF7E059C1F0AF48A004D1B3B /* Score.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7E05791F0AF48A004D1B3B /* Score.png */; };
+		EF7E059D1F0AF48A004D1B3B /* Back Button.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7E057B1F0AF48A004D1B3B /* Back Button.png */; };
+		EF7E059E1F0AF48A004D1B3B /* Check Sign.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7E057C1F0AF48A004D1B3B /* Check Sign.png */; };
+		EF7E059F1F0AF48A004D1B3B /* Easy Button.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7E057D1F0AF48A004D1B3B /* Easy Button.png */; };
+		EF7E05A01F0AF48A004D1B3B /* Hard Button.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7E057E1F0AF48A004D1B3B /* Hard Button.png */; };
+		EF7E05A11F0AF48A004D1B3B /* Medium Button.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7E057F1F0AF48A004D1B3B /* Medium Button.png */; };
+		EF7E05A21F0AF48A004D1B3B /* Highscore Button.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7E05811F0AF48A004D1B3B /* Highscore Button.png */; };
+		EF7E05A31F0AF48A004D1B3B /* Music Off Button.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7E05821F0AF48A004D1B3B /* Music Off Button.png */; };
+		EF7E05A41F0AF48A004D1B3B /* Music On Button.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7E05831F0AF48A004D1B3B /* Music On Button.png */; };
+		EF7E05A51F0AF48A004D1B3B /* Options Button.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7E05841F0AF48A004D1B3B /* Options Button.png */; };
+		EF7E05A61F0AF48A004D1B3B /* Quit Button.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7E05851F0AF48A004D1B3B /* Quit Button.png */; };
+		EF7E05A71F0AF48A004D1B3B /* Start Game Button.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7E05861F0AF48A004D1B3B /* Start Game Button.png */; };
+		EF7E05AA1F0AF5A4004D1B3B /* GameplayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EF7E05A91F0AF5A4004D1B3B /* GameplayScene.sks */; };
+		EF7E05AE1F0AF713004D1B3B /* GameplayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7E05AD1F0AF713004D1B3B /* GameplayScene.swift */; };
+		EF7E05B31F0AFA75004D1B3B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7E05B21F0AFA75004D1B3B /* Player.swift */; };
+		EF9CD5431F0B14CF009F514E /* BGClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9CD5421F0B14CF009F514E /* BGClass.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF7E05401F0AF372004D1B3B /* Jack The Giant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jack The Giant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7E05431F0AF372004D1B3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF7E05451F0AF372004D1B3B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		EF7E05471F0AF372004D1B3B /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		EF7E05491F0AF372004D1B3B /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		EF7E054B1F0AF372004D1B3B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		EF7E054E1F0AF372004D1B3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF7E05501F0AF372004D1B3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF7E05531F0AF372004D1B3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF7E05551F0AF372004D1B3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7E055D1F0AF48A004D1B3B /* Pause Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pause Menu.png"; sourceTree = "<group>"; };
+		EF7E055E1F0AF48A004D1B3B /* Quit Button 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Quit Button 2.png"; sourceTree = "<group>"; };
+		EF7E055F1F0AF48A004D1B3B /* Resume Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resume Button.png"; sourceTree = "<group>"; };
+		EF7E05601F0AF48A004D1B3B /* Show Score.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Show Score.png"; sourceTree = "<group>"; };
+		EF7E05621F0AF48A004D1B3B /* Coin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Coin.png; sourceTree = "<group>"; };
+		EF7E05631F0AF48A004D1B3B /* Life.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Life.png; sourceTree = "<group>"; };
+		EF7E05651F0AF48A004D1B3B /* Cloud 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cloud 1.png"; sourceTree = "<group>"; };
+		EF7E05661F0AF48A004D1B3B /* Cloud 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cloud 2.png"; sourceTree = "<group>"; };
+		EF7E05671F0AF48A004D1B3B /* Cloud 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cloud 3.png"; sourceTree = "<group>"; };
+		EF7E05681F0AF48A004D1B3B /* Dark Cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dark Cloud.png"; sourceTree = "<group>"; };
+		EF7E056A1F0AF48A004D1B3B /* blow.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = blow.ttf; sourceTree = "<group>"; };
+		EF7E056C1F0AF48A004D1B3B /* Background music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Background music.mp3"; sourceTree = "<group>"; };
+		EF7E056D1F0AF48A004D1B3B /* Click Sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Click Sound.wav"; sourceTree = "<group>"; };
+		EF7E056E1F0AF48A004D1B3B /* Coin Sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Coin Sound.wav"; sourceTree = "<group>"; };
+		EF7E056F1F0AF48A004D1B3B /* Life Sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Life Sound.wav"; sourceTree = "<group>"; };
+		EF7E05711F0AF48A004D1B3B /* Game BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Game BG.png"; sourceTree = "<group>"; };
+		EF7E05721F0AF48A004D1B3B /* Highscore BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Highscore BG.png"; sourceTree = "<group>"; };
+		EF7E05731F0AF48A004D1B3B /* Menu BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Menu BG.png"; sourceTree = "<group>"; };
+		EF7E05741F0AF48A004D1B3B /* Options BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Options BG.png"; sourceTree = "<group>"; };
+		EF7E05771F0AF48A004D1B3B /* Pause Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pause Button.png"; sourceTree = "<group>"; };
+		EF7E05781F0AF48A004D1B3B /* Ready.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ready.png; sourceTree = "<group>"; };
+		EF7E05791F0AF48A004D1B3B /* Score.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Score.png; sourceTree = "<group>"; };
+		EF7E057B1F0AF48A004D1B3B /* Back Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back Button.png"; sourceTree = "<group>"; };
+		EF7E057C1F0AF48A004D1B3B /* Check Sign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Check Sign.png"; sourceTree = "<group>"; };
+		EF7E057D1F0AF48A004D1B3B /* Easy Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Easy Button.png"; sourceTree = "<group>"; };
+		EF7E057E1F0AF48A004D1B3B /* Hard Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hard Button.png"; sourceTree = "<group>"; };
+		EF7E057F1F0AF48A004D1B3B /* Medium Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Medium Button.png"; sourceTree = "<group>"; };
+		EF7E05811F0AF48A004D1B3B /* Highscore Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Highscore Button.png"; sourceTree = "<group>"; };
+		EF7E05821F0AF48A004D1B3B /* Music Off Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Music Off Button.png"; sourceTree = "<group>"; };
+		EF7E05831F0AF48A004D1B3B /* Music On Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Music On Button.png"; sourceTree = "<group>"; };
+		EF7E05841F0AF48A004D1B3B /* Options Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Options Button.png"; sourceTree = "<group>"; };
+		EF7E05851F0AF48A004D1B3B /* Quit Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Quit Button.png"; sourceTree = "<group>"; };
+		EF7E05861F0AF48A004D1B3B /* Start Game Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Start Game Button.png"; sourceTree = "<group>"; };
+		EF7E05A91F0AF5A4004D1B3B /* GameplayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameplayScene.sks; sourceTree = "<group>"; };
+		EF7E05AD1F0AF713004D1B3B /* GameplayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameplayScene.swift; sourceTree = "<group>"; };
+		EF7E05B21F0AFA75004D1B3B /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		EF9CD5421F0B14CF009F514E /* BGClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGClass.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF7E053D1F0AF372004D1B3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF7E05371F0AF372004D1B3B = {
+			isa = PBXGroup;
+			children = (
+				EF7E05AB1F0AF6E1004D1B3B /* GameClasses */,
+				EF7E05A81F0AF55E004D1B3B /* Scenes */,
+				EF7E05421F0AF372004D1B3B /* Jack The Giant */,
+				EF7E05411F0AF372004D1B3B /* Products */,
+				EF7E055B1F0AF3B2004D1B3B /* Assets */,
+			);
+			sourceTree = "<group>";
+		};
+		EF7E05411F0AF372004D1B3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF7E05401F0AF372004D1B3B /* Jack The Giant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF7E05421F0AF372004D1B3B /* Jack The Giant */ = {
+			isa = PBXGroup;
+			children = (
+				EF7E05431F0AF372004D1B3B /* AppDelegate.swift */,
+				EF7E05451F0AF372004D1B3B /* GameScene.sks */,
+				EF7E05471F0AF372004D1B3B /* Actions.sks */,
+				EF7E05491F0AF372004D1B3B /* GameScene.swift */,
+				EF7E054B1F0AF372004D1B3B /* GameViewController.swift */,
+				EF7E054D1F0AF372004D1B3B /* Main.storyboard */,
+				EF7E05501F0AF372004D1B3B /* Assets.xcassets */,
+				EF7E05521F0AF372004D1B3B /* LaunchScreen.storyboard */,
+				EF7E05551F0AF372004D1B3B /* Info.plist */,
+			);
+			path = "Jack The Giant";
+			sourceTree = "<group>";
+		};
+		EF7E055B1F0AF3B2004D1B3B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				EF7E055C1F0AF48A004D1B3B /* 1 - Pause Panel And Buttons */,
+				EF7E05611F0AF48A004D1B3B /* 2 - Collectables */,
+				EF7E05641F0AF48A004D1B3B /* 4 - Clouds */,
+				EF7E05691F0AF48A004D1B3B /* 5 - Fonts */,
+				EF7E056B1F0AF48A004D1B3B /* 6 - Music */,
+				EF7E05701F0AF48A004D1B3B /* 7 - Backgrounds */,
+				EF7E05751F0AF48A004D1B3B /* 8 - Buttons */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		EF7E055C1F0AF48A004D1B3B /* 1 - Pause Panel And Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				EF7E055D1F0AF48A004D1B3B /* Pause Menu.png */,
+				EF7E055E1F0AF48A004D1B3B /* Quit Button 2.png */,
+				EF7E055F1F0AF48A004D1B3B /* Resume Button.png */,
+				EF7E05601F0AF48A004D1B3B /* Show Score.png */,
+			);
+			path = "1 - Pause Panel And Buttons";
+			sourceTree = "<group>";
+		};
+		EF7E05611F0AF48A004D1B3B /* 2 - Collectables */ = {
+			isa = PBXGroup;
+			children = (
+				EF7E05621F0AF48A004D1B3B /* Coin.png */,
+				EF7E05631F0AF48A004D1B3B /* Life.png */,
+			);
+			path = "2 - Collectables";
+			sourceTree = "<group>";
+		};
+		EF7E05641F0AF48A004D1B3B /* 4 - Clouds */ = {
+			isa = PBXGroup;
+			children = (
+				EF7E05651F0AF48A004D1B3B /* Cloud 1.png */,
+				EF7E05661F0AF48A004D1B3B /* Cloud 2.png */,
+				EF7E05671F0AF48A004D1B3B /* Cloud 3.png */,
+				EF7E05681F0AF48A004D1B3B /* Dark Cloud.png */,
+			);
+			path = "4 - Clouds";
+			sourceTree = "<group>";
+		};
+		EF7E05691F0AF48A004D1B3B /* 5 - Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EF7E056A1F0AF48A004D1B3B /* blow.ttf */,
+			);
+			path = "5 - Fonts";
+			sourceTree = "<group>";
+		};
+		EF7E056B1F0AF48A004D1B3B /* 6 - Music */ = {
+			isa = PBXGroup;
+			children = (
+				EF7E056C1F0AF48A004D1B3B /* Background music.mp3 */,
+				EF7E056D1F0AF48A004D1B3B /* Click Sound.wav */,
+				EF7E056E1F0AF48A004D1B3B /* Coin Sound.wav */,
+				EF7E056F1F0AF48A004D1B3B /* Life Sound.wav */,
+			);
+			path = "6 - Music";
+			sourceTree = "<group>";
+		};
+		EF7E05701F0AF48A004D1B3B /* 7 - Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				EF7E05711F0AF48A004D1B3B /* Game BG.png */,
+				EF7E05721F0AF48A004D1B3B /* Highscore BG.png */,
+				EF7E05731F0AF48A004D1B3B /* Menu BG.png */,
+				EF7E05741F0AF48A004D1B3B /* Options BG.png */,
+			);
+			path = "7 - Backgrounds";
+			sourceTree = "<group>";
+		};
+		EF7E05751F0AF48A004D1B3B /* 8 - Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				EF7E05761F0AF48A004D1B3B /* 1 - Gameplay Buttons */,
+				EF7E057A1F0AF48A004D1B3B /* 2 - Options Buttons */,
+				EF7E05801F0AF48A004D1B3B /* 3 - Main Menu Buttons */,
+			);
+			path = "8 - Buttons";
+			sourceTree = "<group>";
+		};
+		EF7E05761F0AF48A004D1B3B /* 1 - Gameplay Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				EF7E05771F0AF48A004D1B3B /* Pause Button.png */,
+				EF7E05781F0AF48A004D1B3B /* Ready.png */,
+				EF7E05791F0AF48A004D1B3B /* Score.png */,
+			);
+			path = "1 - Gameplay Buttons";
+			sourceTree = "<group>";
+		};
+		EF7E057A1F0AF48A004D1B3B /* 2 - Options Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				EF7E057B1F0AF48A004D1B3B /* Back Button.png */,
+				EF7E057C1F0AF48A004D1B3B /* Check Sign.png */,
+				EF7E057D1F0AF48A004D1B3B /* Easy Button.png */,
+				EF7E057E1F0AF48A004D1B3B /* Hard Button.png */,
+				EF7E057F1F0AF48A004D1B3B /* Medium Button.png */,
+			);
+			path = "2 - Options Buttons";
+			sourceTree = "<group>";
+		};
+		EF7E05801F0AF48A004D1B3B /* 3 - Main Menu Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				EF7E05811F0AF48A004D1B3B /* Highscore Button.png */,
+				EF7E05821F0AF48A004D1B3B /* Music Off Button.png */,
+				EF7E05831F0AF48A004D1B3B /* Music On Button.png */,
+				EF7E05841F0AF48A004D1B3B /* Options Button.png */,
+				EF7E05851F0AF48A004D1B3B /* Quit Button.png */,
+				EF7E05861F0AF48A004D1B3B /* Start Game Button.png */,
+			);
+			path = "3 - Main Menu Buttons";
+			sourceTree = "<group>";
+		};
+		EF7E05A81F0AF55E004D1B3B /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				EF7E05A91F0AF5A4004D1B3B /* GameplayScene.sks */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		EF7E05AB1F0AF6E1004D1B3B /* GameClasses */ = {
+			isa = PBXGroup;
+			children = (
+				EF9CD5411F0B1489009F514E /* BackgroundClass */,
+				EF7E05B11F0AFA62004D1B3B /* Player Class */,
+				EF7E05AC1F0AF6F5004D1B3B /* SceneClasses */,
+			);
+			name = GameClasses;
+			sourceTree = "<group>";
+		};
+		EF7E05AC1F0AF6F5004D1B3B /* SceneClasses */ = {
+			isa = PBXGroup;
+			children = (
+				EF7E05AD1F0AF713004D1B3B /* GameplayScene.swift */,
+			);
+			name = SceneClasses;
+			sourceTree = "<group>";
+		};
+		EF7E05B11F0AFA62004D1B3B /* Player Class */ = {
+			isa = PBXGroup;
+			children = (
+				EF7E05B21F0AFA75004D1B3B /* Player.swift */,
+			);
+			name = "Player Class";
+			sourceTree = "<group>";
+		};
+		EF9CD5411F0B1489009F514E /* BackgroundClass */ = {
+			isa = PBXGroup;
+			children = (
+				EF9CD5421F0B14CF009F514E /* BGClass.swift */,
+			);
+			name = BackgroundClass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF7E053F1F0AF372004D1B3B /* Jack The Giant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7E05581F0AF372004D1B3B /* Build configuration list for PBXNativeTarget "Jack The Giant" */;
+			buildPhases = (
+				EF7E053C1F0AF372004D1B3B /* Sources */,
+				EF7E053D1F0AF372004D1B3B /* Frameworks */,
+				EF7E053E1F0AF372004D1B3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jack The Giant";
+			productName = "Jack The Giant";
+			productReference = EF7E05401F0AF372004D1B3B /* Jack The Giant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF7E05381F0AF372004D1B3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ovidiu Bortas";
+				TargetAttributes = {
+					EF7E053F1F0AF372004D1B3B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 78PY5HFX5F;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EF7E053B1F0AF372004D1B3B /* Build configuration list for PBXProject "Jack The Giant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF7E05371F0AF372004D1B3B;
+			productRefGroup = EF7E05411F0AF372004D1B3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF7E053F1F0AF372004D1B3B /* Jack The Giant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF7E053E1F0AF372004D1B3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7E05A71F0AF48A004D1B3B /* Start Game Button.png in Resources */,
+				EF7E05871F0AF48A004D1B3B /* Pause Menu.png in Resources */,
+				EF7E05A11F0AF48A004D1B3B /* Medium Button.png in Resources */,
+				EF7E05891F0AF48A004D1B3B /* Resume Button.png in Resources */,
+				EF7E059F1F0AF48A004D1B3B /* Easy Button.png in Resources */,
+				EF7E058B1F0AF48A004D1B3B /* Coin.png in Resources */,
+				EF7E05A61F0AF48A004D1B3B /* Quit Button.png in Resources */,
+				EF7E05961F0AF48A004D1B3B /* Game BG.png in Resources */,
+				EF7E05881F0AF48A004D1B3B /* Quit Button 2.png in Resources */,
+				EF7E05901F0AF48A004D1B3B /* Dark Cloud.png in Resources */,
+				EF7E059C1F0AF48A004D1B3B /* Score.png in Resources */,
+				EF7E059E1F0AF48A004D1B3B /* Check Sign.png in Resources */,
+				EF7E058F1F0AF48A004D1B3B /* Cloud 3.png in Resources */,
+				EF7E058C1F0AF48A004D1B3B /* Life.png in Resources */,
+				EF7E05921F0AF48A004D1B3B /* Background music.mp3 in Resources */,
+				EF7E05A51F0AF48A004D1B3B /* Options Button.png in Resources */,
+				EF7E059B1F0AF48A004D1B3B /* Ready.png in Resources */,
+				EF7E05931F0AF48A004D1B3B /* Click Sound.wav in Resources */,
+				EF7E058A1F0AF48A004D1B3B /* Show Score.png in Resources */,
+				EF7E05911F0AF48A004D1B3B /* blow.ttf in Resources */,
+				EF7E05951F0AF48A004D1B3B /* Life Sound.wav in Resources */,
+				EF7E054F1F0AF372004D1B3B /* Main.storyboard in Resources */,
+				EF7E058E1F0AF48A004D1B3B /* Cloud 2.png in Resources */,
+				EF7E05981F0AF48A004D1B3B /* Menu BG.png in Resources */,
+				EF7E05A41F0AF48A004D1B3B /* Music On Button.png in Resources */,
+				EF7E05AA1F0AF5A4004D1B3B /* GameplayScene.sks in Resources */,
+				EF7E05461F0AF372004D1B3B /* GameScene.sks in Resources */,
+				EF7E05971F0AF48A004D1B3B /* Highscore BG.png in Resources */,
+				EF7E05511F0AF372004D1B3B /* Assets.xcassets in Resources */,
+				EF7E05A01F0AF48A004D1B3B /* Hard Button.png in Resources */,
+				EF7E05A31F0AF48A004D1B3B /* Music Off Button.png in Resources */,
+				EF7E05941F0AF48A004D1B3B /* Coin Sound.wav in Resources */,
+				EF7E05541F0AF372004D1B3B /* LaunchScreen.storyboard in Resources */,
+				EF7E058D1F0AF48A004D1B3B /* Cloud 1.png in Resources */,
+				EF7E05991F0AF48A004D1B3B /* Options BG.png in Resources */,
+				EF7E059A1F0AF48A004D1B3B /* Pause Button.png in Resources */,
+				EF7E05481F0AF372004D1B3B /* Actions.sks in Resources */,
+				EF7E05A21F0AF48A004D1B3B /* Highscore Button.png in Resources */,
+				EF7E059D1F0AF48A004D1B3B /* Back Button.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF7E053C1F0AF372004D1B3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7E05AE1F0AF713004D1B3B /* GameplayScene.swift in Sources */,
+				EF7E054A1F0AF372004D1B3B /* GameScene.swift in Sources */,
+				EF7E054C1F0AF372004D1B3B /* GameViewController.swift in Sources */,
+				EF7E05B31F0AFA75004D1B3B /* Player.swift in Sources */,
+				EF7E05441F0AF372004D1B3B /* AppDelegate.swift in Sources */,
+				EF9CD5431F0B14CF009F514E /* BGClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF7E054D1F0AF372004D1B3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7E054E1F0AF372004D1B3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF7E05521F0AF372004D1B3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7E05531F0AF372004D1B3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF7E05561F0AF372004D1B3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF7E05571F0AF372004D1B3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF7E05591F0AF372004D1B3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 78PY5HFX5F;
+				INFOPLIST_FILE = "Jack The Giant/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BortasOvi.Jack-The-Giant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EF7E055A1F0AF372004D1B3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 78PY5HFX5F;
+				INFOPLIST_FILE = "Jack The Giant/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BortasOvi.Jack-The-Giant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF7E053B1F0AF372004D1B3B /* Build configuration list for PBXProject "Jack The Giant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7E05561F0AF372004D1B3B /* Debug */,
+				EF7E05571F0AF372004D1B3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7E05581F0AF372004D1B3B /* Build configuration list for PBXNativeTarget "Jack The Giant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7E05591F0AF372004D1B3B /* Debug */,
+				EF7E055A1F0AF372004D1B3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF7E05381F0AF372004D1B3B /* Project object */;
+}
